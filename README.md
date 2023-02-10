@@ -137,3 +137,17 @@ ic score, it will run twice for each case:
     # 9. A single test
 ic string from given input string
 ```
+
+---
+
+> ## Reference
+> If you want to use the models, you need to cite our following paper:
+> 
+> ```
+> @inproceedings{CERT,
+>   title={{CERT}: Continual Pre-training on Sketches for Library-oriented Code Generation},
+>   author={Zan, Daoguang and Chen, Bei and Yang, Dejian and Lin, Zeqi and Kim, Minsu and Guan, Bei and Wang, Yongji and Chen, Weizhu and Lou, Jian-Guang},
+>   booktitle={The 2022 International Joint Conference on Artificial Intelligence},
+>   year={2022}
+> }
+> ```
