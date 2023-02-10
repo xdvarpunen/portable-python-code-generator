@@ -2,7 +2,12 @@
 
 Using [Daoguang/PyCodeGPT](https://github.com/microsoft/PyCodeGPT) to run Python code generator offline. Uses CPU instead of GPU.
 
+> ## What is it?
+> 
+> PyCodeGPT is efficient and effective GPT-Neo-based model for python code generation task, which is similar to [OpenAI Codex](https://openai.com/blog/openai-codex/), [Github Copliot](https://copilot.github.com/), [CodeParrot](https://huggingface.co/blog/codeparrot), [AlphaCode](https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode).
+
 Created working example from [issue](https://github.com/microsoft/PyCodeGPT/issues/8)
+
 
 ## Getting Started
 
