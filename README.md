@@ -72,3 +72,63 @@ Write prompt (example 'def say_hello():'): def say_hello():
                 elif say_hello_text == "0":
                         print("Enter a number
 ```
+
+```powershell
+Write prompt (example 'def say_hello():'): create function that returns palindrom
+ic
+        palindromes that are within the range [0, n]
+        """
+        # Generate the palindromes
+        low = 0
+        high = n - 1
+        while low <= high:
+            mid = (low + high) // 2
+            if palindromes[mid] <= n:
+                low = mid + 1
+            else:
+                high = mid - 1
+        return palindromes[0]
+
+    def _find_palindrome_in_range(self, n):
+        """
+        Finds the palindrome within a range [0, n]
+        """
+        # Find the index of the palindrome within
+        # range [0, n]
+        for i in range(len(
+ic characters.
+    def palindromic(self):
+        # Write your code here
+        pass
+ic string
+        try:
+            # search for palindromic string in list of palindromic string
+            for palindromic in self.palindromic:
+                if palindromic in string:
+                    return palindromic
+        except:
+            return None
+
+
+    def build_palindromic_function(self, string, start, end):
+        """
+        builds a palindromic function according to the two rules
+        """
+        # build function that returns palindromic string
+        # if the palindromic string starts with the string
+        if string.startswith(start):
+            # search for palindromic string
+            for palindromic in self.palindromic:
+                if
+ic score, it will run twice for each case:
+    # 1. A single test case, that does not exist in the database,
+    # 2. A single test case, that does exist in the database,
+    # 3. A single test case, that does exist in the database,
+    # 4. A single test case, that does exist in the database,
+    # 5. A single test case, that does exist in the database,
+    # 6. A single test case, that does not exist in the database,
+    # 7. A single test case, that does not exist in the database,
+    # 8. A single test case, that does not exist in the database,
+    # 9. A single test
+ic string from given input string
+```
