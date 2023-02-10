@@ -29,6 +29,8 @@ python -m pip install -r requirements.txt # Install dependencies if not installe
 python main.py # Downloads PyTorch model if not downloaded yet and runs the app/script
 ```
 
+### Example output 
+
 ```powershell
 (venv) PS C:\Users\User\Documents\GitHub\portable-python-chat-gpt> python main.py
 load generation pipeline from Daoguang/PyCodeGPT over, vocab size = 32000, eos id = 0, gpu device = 0.
