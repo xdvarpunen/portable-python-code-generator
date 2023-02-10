@@ -10,7 +10,8 @@ Guide made using Windows 11.
 
 ### Requirements
 
-- Python version 3.7-3.9 (PyTorch limits)
+- ~Python version 3.7-3.9 (PyTorch limits)~
+- Used Python version 3.10
 
 ### Venv
 
