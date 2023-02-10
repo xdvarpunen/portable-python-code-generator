@@ -1,4 +1,4 @@
-# portable-python-chat-gpt
+# portable-python-code-generator
 
 Using [Daoguang/PyCodeGPT](https://github.com/microsoft/PyCodeGPT) to run Python code generator offline. Uses CPU instead of GPU.
 
