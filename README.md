@@ -9,6 +9,10 @@ Using [Daoguang/PyCodeGPT](https://github.com/microsoft/PyCodeGPT) to run Python
 > ## What is it?
 > 
 > PyCodeGPT is efficient and effective GPT-Neo-based model for python code generation task, which is similar to [OpenAI Codex](https://openai.com/blog/openai-codex/), [Github Copliot](https://copilot.github.com/), [CodeParrot](https://huggingface.co/blog/codeparrot), [AlphaCode](https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode).
+>
+> ## Training Data
+> Due to the small size of public released dataset, we proposed to collect data from GitHub from scratch. We first crawled 1.2M python-related repositories hosted by GitHub. Then, we used these repository URLs to download all contents of each repository from GitHub. After that, we got 60M raw python files under 1MB with a total size of 330GB. Finally, we carefully designed various strategies of data cleaning to get about 96GB data for training.
+>
 
 Created working example from [issue](https://github.com/microsoft/PyCodeGPT/issues/8)
 
