@@ -1,5 +1,9 @@
 # portable-python-code-generator
 
+Offline first command line tool based Python code generation tool. Provide input and tool will provide output. Below instructions on how to get started using the tool.
+
+---
+
 Using [Daoguang/PyCodeGPT](https://github.com/microsoft/PyCodeGPT) to run Python code generator offline. Uses CPU instead of GPU.
 
 > ## What is it?
