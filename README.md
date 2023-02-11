@@ -38,7 +38,7 @@ python main.py # Downloads PyTorch model if not downloaded yet and runs the app/
 ### Example output 
 
 ```powershell
-(venv) PS C:\Users\User\Documents\GitHub\portable-python-chat-gpt> python main.py
+(venv) PS C:\Users\User\Documents\GitHub\portable-python-code-generator> python main.py
 load generation pipeline from Daoguang/PyCodeGPT over, vocab size = 32000, eos id = 0, gpu device = 0.
 Write prompt (example 'def say_hello():'): def say_hello():
 
