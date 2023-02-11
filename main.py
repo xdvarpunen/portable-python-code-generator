@@ -51,8 +51,10 @@ gen_kwargs = {
     "eos_token_id": pipe.tokenizer.eos_token_id
 }
 
-prompt = input("Write prompt (example 'def say_hello():'): ")
-
-code_gens = run_code_generation(pipe, prompt, num_completions=5, **gen_kwargs)
-
-[print(code_gen) for code_gen in code_gens]
+while True:
+    print("Example: 'def say_hello():'")
+    print("Example: How to draw rectangle in PyGame?")
+    print("Press Ctrl+C to quit app.")
+    prompt = input("Write prompt: ")
+    code_gens = run_code_generation(pipe, prompt, num_completions=5, **gen_kwargs)
+    [print(code_gen) for code_gen in code_gens]
